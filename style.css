@@ -4,6 +4,7 @@ body{
   margin: 0;
   padding: 0;
   overflow-y: scroll;
+  overflow-x: hidden;
   }
 
   header{
@@ -49,7 +50,7 @@ li a i{
 }
 
 li a i:hover{
-color: rgb(105, 202, 105);
+color: gray;
 transition: all ease-in-out 200ms;
 }
 
@@ -188,42 +189,65 @@ input[name="r"]{
 }
 
 footer{
-  background-color: #000;
-  margin-top: 40%;
-  height: 50px;
-}
-.list li a i{
-  color: #fff;
-word-spacing: 1px;
-}
-
-#instagram:hover{
-  color: violet;
-  transition: all ease-out 250ms;
-}
-
-#facebook:hover{
-  color: rgb(11, 11, 105);
-  transition: all ease-out 250ms;
-}
-
-#location:hover{
-  color: red;
-  transition: all ease-out 250ms;
-}
-
-
-.list li a{
-  color: #fff;
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p{
-  color: #fff;
+  background: #111;
+  height:  20%;
+  width: 100vw;
   font-family: 'Courier New', Courier, monospace;
-  margin-top: -2%;
-  font-size: 1rem;
-font-weight: bold;
-margin-left: 55px;
+  padding-top: 40px;
+  margin-top: 50%;
+  color: #fff;
 }
+
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.list p{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3remm;
+}
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials a i{
+  font-size: 1.1rem;
+}
+
+.socials a:hover i{
+  color: aqua;
+}
+
+.footer-bottom{
+  background: black;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
