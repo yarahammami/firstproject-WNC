@@ -28,7 +28,7 @@ function checkInputs(){
 if(emailValue === ''){
   setErrorFor(email,'email cannot be blank');
 }
-else if(!isemail(emailValue)){
+else if(!isEmail(emailValue)){
   setErrorFor(email, 'email in not valid');
 }
 else{

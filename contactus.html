@@ -13,11 +13,11 @@
   
   <div class="container">
     <div class="header">
-      <h2>Create Account</h2>
+      <h2>Customer Service</h2>
     </div>
     <form  class="form" id="form">
       <div class="form-control success">
-        <label for="">Username</label>
+        <label for="" style="color: white;">Username</label>
         <input type="text" placeholder="Username" id="username">
         <i class="fas fa-check-circle"></i>
         <i class="fas fa-exclamation-circle"></i>
@@ -26,7 +26,7 @@
 
       <form  class="form" id="form">
         <div class="form-control error">
-          <label for="">Email</label>
+          <label for="" style="color: white;">Email</label>
           <input type="email" placeholder="email@example.com" id="email">
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
@@ -35,7 +35,7 @@
 
         <form  class="form" id="form">
           <div class="form-control">
-            <label for="">password</label>
+            <label for="" style="color: white;">password</label>
             <input type="password" placeholder="password" id="password">
             <i class="fas fa-check-circle"></i>
             <i class="fas fa-exclamation-circle"></i>
@@ -44,14 +44,18 @@
 
           <form  class="form" id="form">
             <div class="form-control">
-              <label for="">password check</label>
+              <label for="" style="color: white;">password check</label>
               <input type="password" placeholder="confirm password" id="password2">
               <i class="fas fa-check-circle"></i>
               <i class="fas fa-exclamation-circle"></i>
               <small>Error Message</small>
             </div>
 
-            <button>Submit</button>
+
+      <textarea class="opinion"  cols="15" rows="5" placeholder="what can we do for you?"></textarea>
+            <button class="btn1" onclick="checkInputs()">Submit</button>
+  
+          
     </form>
   </div>
 
