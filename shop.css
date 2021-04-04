@@ -130,3 +130,11 @@ ul{
   align-items: center;
 }
 
+button{
+  width: 20%;
+  height: 20%;
+  position: relative;
+  border-radius: 50%;
+  text-align: center;
+}
+

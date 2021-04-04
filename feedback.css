@@ -68,6 +68,7 @@ button{
   justify-content: center;
   display: flex;
   margin: 0 auto;
+  margin-top: 20px;
   transition: all ease 0.2s;
 font-family: Georgia, 'Times New Roman', Times, serif;
 padding: 10px;
